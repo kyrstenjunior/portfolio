@@ -1,7 +1,10 @@
 import { dm_serif } from "@/app/fonts";
 import Image from "next/image";
-import imgHtml from "../../public/hardskills/html.svg";
 import imgStarFull from "../../public/star-colorfull.svg";
+import type { NextApiRequest, NextApiResponse } from "next";
+
+
+import imgHtml from "../../public/hardskills/html.svg";
 import imgCss from "../../public/hardskills/css.svg";
 import imgJs from "../../public/hardskills/javascript.svg";
 import imgReact from "../../public/hardskills/react.svg";
@@ -13,6 +16,9 @@ import imgNode from "../../public/hardskills/node.svg";
 import imgJava from "../../public/hardskills/java.svg";
 
 export default function HardSkills() {
+
+
+
     return (
         <section className="mt-28">
             <h2 className={`${dm_serif.className} text-3xl`}>Hard Skills</h2>
