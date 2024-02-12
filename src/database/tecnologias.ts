@@ -10,14 +10,14 @@ import imgNode from "../../public/hardskills/node.svg";
 import imgJava from "../../public/hardskills/java.svg";
 
 export const tecnologias = [
-    {name: 'html', img: {imgHtml}},
-    {name: 'css', img: {imgCss}},
-    {name: 'js', img: {imgJs}},
-    {name: 'react', img: {imgReact}},
-    {name: 'jquery', img: {imgJquery}},
-    {name: 'angular', img: {imgAngular}},
-    {name: 'git', img: {imgGit}},
-    {name: 'php', img: {imgPhp}},
-    {name: 'node', img: {imgNode}},
-    {name: 'java', img: {imgJava}}
+    {id: 1, name: 'html', img: imgHtml},
+    {id: 2, name: 'css', img: imgCss},
+    {id: 3, name: 'js', img: imgJs},
+    {id: 4, name: 'react', img: imgReact},
+    {id: 5, name: 'jquery', img: imgJquery},
+    {id: 6, name: 'angular', img: imgAngular},
+    {id: 7, name: 'git', img: imgGit},
+    {id: 8, name: 'php', img: imgPhp},
+    {id: 9, name: 'node', img: imgNode},
+    {id: 10, name: 'java', img: imgJava}
 ]

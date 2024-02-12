@@ -2,7 +2,7 @@ import { dm_serif } from "@/app/fonts"
 
 export default function Header() {
   return (
-    <nav className="flex justify-between items-center h-10 pt-10">
+    <nav className=" container m-auto px-24 h-10 pt-10 flex justify-between items-center">
       <h2 className={`${dm_serif.className} text-4xl`}>KJ</h2>
       <ul className="flex gap-9 text-xl">
         <li><a href="#">Sobre mim</a></li>

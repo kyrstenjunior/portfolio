@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div className="w-1/2">
         <h2 className={`${dm_serif.className} text-3xl mb-7`}>Sobre Mim</h2>
         <article className={`${fira.className} text-2xl`}>
-          Atuando com Angular, React, JavaScript, jQuery, PHP e Java na Nairuz Marketing, liderando projetos bem-sucedidos de e-commerce em Magento e Liquid. Responsável por estimativas negociações de prazos e orientação da equipe. Também atendo chamados de suporte, mantendo contato direto com o cliente.
+          Atuando com Angular, React, JavaScript, jQuery, PHP na Nairuz Marketing, liderando projetos bem-sucedidos de e-commerce em Magento e Liquid. Responsável por estimativas negociações de prazos e orientação da equipe. Também atendo chamados de suporte, mantendo contato direto com o cliente.
         </article>
       </div>
       <div className="w-1/2 flex justify-end">
