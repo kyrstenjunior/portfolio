@@ -8,7 +8,7 @@ import Box from "./boxTech";
 export default function HardSkills() {
     return (
         <section className="mt-28">
-            <h2 className={`${dm_serif.className} text-3xl`}>Hard Skills</h2>
+            <h2 id="hardskills" className={`${dm_serif.className} text-3xl`}>Hard Skills</h2>
             <div className="flex gap-16 justify-between mt-8">
                 {
                     tecnologias.map((tech) => (

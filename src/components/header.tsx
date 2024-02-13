@@ -5,9 +5,9 @@ export default function Header() {
     <nav className=" container m-auto px-24 h-10 pt-10 flex justify-between items-center">
       <h2 className={`${dm_serif.className} text-4xl`}>KJ</h2>
       <ul className="flex gap-9 text-xl">
-        <li><a href="#">Sobre mim</a></li>
-        <li><a href="#">Hardskills</a></li>
-        <li><a href="#">Projetos</a></li>
+        <li><a href="#sobre-mim">Sobre mim</a></li>
+        <li><a href="#hardskills">Hardskills</a></li>
+        <li><a href="#projects">Projetos</a></li>
         <li>
           <a href="#" className="py-2 px-3 bg-blue-700 hover:bg-blue-500 rounded-lg">
             Contato
