@@ -13,7 +13,7 @@ export default function HardSkills() {
                 {
                     tecnologias.map((tech) => (
                         tech.id <= 5 ? (
-                            <Box key={tech.id} img={tech.img} starFull={imgStarFull} title={tech.name} />
+                            <Box key={tech.id} img={tech.img} starFull={imgStarFull} title={tech.name} stars={tech.stars} />
                         ) : null
                     ))
                 }
@@ -22,7 +22,7 @@ export default function HardSkills() {
                 {
                     tecnologias.map((tech) => (
                         tech.id > 5 ? (
-                            <Box key={tech.id} img={tech.img} starFull={imgStarFull} title={tech.name} />
+                            <Box key={tech.id} img={tech.img} starFull={imgStarFull} title={tech.name} stars={tech.stars} />
                         ) : null
                     ))
                 }

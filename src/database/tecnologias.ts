@@ -10,14 +10,14 @@ import imgNode from "../../public/hardskills/node.svg";
 import imgJava from "../../public/hardskills/java.svg";
 
 export const tecnologias = [
-    {id: 1, name: 'html', img: imgHtml},
-    {id: 2, name: 'css', img: imgCss},
-    {id: 3, name: 'js', img: imgJs},
-    {id: 4, name: 'react', img: imgReact},
-    {id: 5, name: 'jquery', img: imgJquery},
-    {id: 6, name: 'angular', img: imgAngular},
-    {id: 7, name: 'git', img: imgGit},
-    {id: 8, name: 'php', img: imgPhp},
-    {id: 9, name: 'node', img: imgNode},
-    {id: 10, name: 'java', img: imgJava}
+    {id: 1, name: 'html', img: imgHtml, stars: 3},
+    {id: 2, name: 'css', img: imgCss, stars: 3},
+    {id: 3, name: 'js', img: imgJs, stars: 3},
+    {id: 4, name: 'react', img: imgReact, stars: 3},
+    {id: 5, name: 'jquery', img: imgJquery, stars: 2},
+    {id: 6, name: 'angular', img: imgAngular, stars: 2},
+    {id: 7, name: 'git', img: imgGit, stars: 1},
+    {id: 8, name: 'php', img: imgPhp, stars: 1},
+    {id: 9, name: 'node', img: imgNode, stars: 1},
+    {id: 10, name: 'java', img: imgJava, stars: 1}
 ]
